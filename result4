@@ -1,0 +1,30 @@
+reading 10001 1-grams
+reading 264990 2-grams
+reading 586558 3-grams
+reading 717733 4-grams
+reading 22983 5-grams
+Perplexity of the ngram model:
+file ../data/ptb.test.txt: 3761 sentences, 78669 words, 0 OOVs
+0 zeroprobs, logprob= -177278 ppl= 141.464 ppl1= 179.251
+Perplexity of the full rnn model when combined with 5-gram model:
+test file: ../data/ptb.test.txt
+Lambda (interpolation coefficient between rnnlm and other lm): 0.500000
+other lm probabilities specified in: ../temp/ngram.txt
+rnnlm file: ../models/ptb.model.hidden200.class100.txt
+
+test log probability: -175843.966182
+test log probability given by other lm: -177277.640927
+test log probability 0.500000*rnn + 0.500000*other_lm: -169160.094803
+
+PPL net: 135.910198
+PPL other: 141.463591
+PPL combine: 112.763001
+Generating data...
+warning: no singleton counts
+GT discounting disabled
+Perplexity of the rnn model approximated by 5-gram model:
+file ../data/ptb.test.txt: 3761 sentences, 78669 words, 0 OOVs
+0 zeroprobs, logprob= -187624 ppl= 188.869 ppl1= 242.649
+Perplexity of the rnn model approximated by 5-gram model, combined with the baseline 5-gram model:
+file ../data/ptb.test.txt: 3761 sentences, 78669 words, 0 OOVs
+0 zeroprobs, logprob= -175460 ppl= 134.459 ppl1= 169.962

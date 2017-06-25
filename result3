@@ -1,0 +1,23 @@
+reading 10001 1-grams
+reading 264990 2-grams
+reading 586558 3-grams
+reading 717733 4-grams
+reading 22983 5-grams
+Probability from model 1
+Log P: -179083.914583
+PPL: 148.784434
+Probability from model 12
+Log P: -176404.080196
+PPL: 138.053389
+Probability from model 123
+Log P: -175502.096291
+PPL: 134.618470
+Probability from model 1234
+Log P: -174845.254892
+PPL: 132.171000
+Probability from model 12345
+Log P: -174406.257396
+PPL: 130.560100
+Probability from model 12345 + ngram
+Log P: -168998.132099
+PPL: 112.253986

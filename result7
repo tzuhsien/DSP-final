@@ -1,0 +1,52 @@
+reading 10001 1-grams
+reading 264990 2-grams
+reading 586558 3-grams
+reading 717733 4-grams
+reading 22983 5-grams
+Static model:
+test file: ../data/ptb.test.txt
+Lambda (interpolation coefficient between rnnlm and other lm): 0.500000
+other lm probabilities specified in: ../temp/ngram.txt
+rnnlm file: ../models/ptb.model.hidden100.class100.txt
+
+test log probability: -179083.914760
+test log probability given by other lm: -177277.640927
+test log probability 0.500000*rnn + 0.500000*other_lm: -170688.587532
+
+PPL net: 148.784435
+PPL other: 141.463591
+PPL combine: 117.681865
+
+real	0m12.488s
+user	0m12.397s
+sys	0m0.063s
+Dynamic model:
+test file: ../data/ptb.test.txt
+Lambda (interpolation coefficient between rnnlm and other lm): 0.500000
+Dynamic learning rate: 0.100000
+other lm probabilities specified in: ../temp/ngram.txt
+rnnlm file: ../models/ptb.model.hidden100.class100.txt
+
+test log probability: -178392.268150
+test log probability given by other lm: -177277.640927
+test log probability 0.500000*rnn + 0.500000*other_lm: -169401.873958
+
+PPL net: 145.937461
+PPL other: 141.463591
+PPL combine: 113.527159
+
+real	2m10.901s
+user	2m8.533s
+sys	0m0.137s
+Probability from static model
+Log P: -179083.914583
+PPL: 148.784434
+Probability from dynamic model
+Log P: -178392.270759
+PPL: 145.937471
+Probability from combination of static and dynamic model
+Log P: -175442.037696
+PPL: 134.392814
+Probability from static, dynamic and ngram models
+Log P: -168999.151859
+PPL: 112.257184

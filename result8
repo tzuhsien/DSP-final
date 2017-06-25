@@ -1,0 +1,39 @@
+reading 10001 1-grams
+reading 264990 2-grams
+reading 586558 3-grams
+reading 717733 4-grams
+reading 22983 5-grams
+Probability from rnn model with no direct connections:
+test file: ../data/ptb.test.txt
+Lambda (interpolation coefficient between rnnlm and other lm): 0.400000
+other lm probabilities specified in: ../temp/ngram.txt
+rnnlm file: ../models/ptb.model.hidden30.class100.txt
+
+test log probability: -185059.971603
+test log probability given by other lm: -177277.640927
+test log probability 0.400000*rnn + 0.600000*other_lm: -172758.315176
+
+PPL net: 175.815057
+PPL other: 141.463591
+PPL combine: 124.686219
+
+real	0m2.194s
+user	0m2.117s
+sys	0m0.023s
+Probability from rnn model with direct connections between top 5000 words:
+test file: ../data/ptb.test.txt
+Lambda (interpolation coefficient between rnnlm and other lm): 0.500000
+other lm probabilities specified in: ../temp/ngram.txt
+rnnlm file: ../models/ptb.model.hidden30.class100.direct5000.txt
+
+test log probability: -179711.111398
+test log probability given by other lm: -177277.640927
+test log probability 0.500000*rnn + 0.500000*other_lm: -172504.693718
+
+PPL net: 151.414107
+PPL other: 141.463591
+PPL combine: 123.805986
+
+real	0m11.644s
+user	0m11.327s
+sys	0m0.250s

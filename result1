@@ -1,0 +1,117 @@
+reading 10001 1-grams
+reading 264990 2-grams
+reading 586558 3-grams
+reading 717733 4-grams
+reading 22983 5-grams
+test file: ../data/ptb.test.txt
+Lambda (interpolation coefficient between rnnlm and other lm): 0.100000
+other lm probabilities specified in: ../temp/ngram.txt
+rnnlm file: ../models/ptb.model.hidden100.class100.txt
+
+test log probability: -179083.914760
+test log probability given by other lm: -177277.640927
+test log probability 0.100000*rnn + 0.900000*other_lm: -174160.820012
+
+PPL net: 148.784435
+PPL other: 141.463591
+PPL combine: 129.668041
+
+real	0m3.523s
+user	0m3.490s
+sys	0m0.033s
+test file: ../data/ptb.test.txt
+Lambda (interpolation coefficient between rnnlm and other lm): 0.200000
+other lm probabilities specified in: ../temp/ngram.txt
+rnnlm file: ../models/ptb.model.hidden100.class100.txt
+
+test log probability: -179083.914760
+test log probability given by other lm: -177277.640927
+test log probability 0.200000*rnn + 0.800000*other_lm: -172537.862256
+
+PPL net: 148.784435
+PPL other: 141.463591
+PPL combine: 123.920749
+
+real	0m3.534s
+user	0m3.500s
+sys	0m0.033s
+test file: ../data/ptb.test.txt
+Lambda (interpolation coefficient between rnnlm and other lm): 0.300000
+other lm probabilities specified in: ../temp/ngram.txt
+rnnlm file: ../models/ptb.model.hidden100.class100.txt
+
+test log probability: -179083.914760
+test log probability given by other lm: -177277.640927
+test log probability 0.300000*rnn + 0.700000*other_lm: -171527.501459
+
+PPL net: 148.784435
+PPL other: 141.463591
+PPL combine: 120.472197
+
+real	0m3.522s
+user	0m3.497s
+sys	0m0.023s
+test file: ../data/ptb.test.txt
+Lambda (interpolation coefficient between rnnlm and other lm): 0.500000
+other lm probabilities specified in: ../temp/ngram.txt
+rnnlm file: ../models/ptb.model.hidden100.class100.txt
+
+test log probability: -179083.914760
+test log probability given by other lm: -177277.640927
+test log probability 0.500000*rnn + 0.500000*other_lm: -170688.587532
+
+PPL net: 148.784435
+PPL other: 141.463591
+PPL combine: 117.681865
+
+real	0m3.494s
+user	0m3.467s
+sys	0m0.027s
+test file: ../data/ptb.test.txt
+Lambda (interpolation coefficient between rnnlm and other lm): 0.700000
+other lm probabilities specified in: ../temp/ngram.txt
+rnnlm file: ../models/ptb.model.hidden100.class100.txt
+
+test log probability: -179083.914760
+test log probability given by other lm: -177277.640927
+test log probability 0.700000*rnn + 0.300000*other_lm: -171224.223972
+
+PPL net: 148.784435
+PPL other: 141.463591
+PPL combine: 119.455904
+
+real	0m3.531s
+user	0m3.513s
+sys	0m0.017s
+test file: ../data/ptb.test.txt
+Lambda (interpolation coefficient between rnnlm and other lm): 0.800000
+other lm probabilities specified in: ../temp/ngram.txt
+rnnlm file: ../models/ptb.model.hidden100.class100.txt
+
+test log probability: -179083.914760
+test log probability given by other lm: -177277.640927
+test log probability 0.800000*rnn + 0.200000*other_lm: -172147.230296
+
+PPL net: 148.784435
+PPL other: 141.463591
+PPL combine: 122.575895
+
+real	0m3.336s
+user	0m3.300s
+sys	0m0.033s
+test file: ../data/ptb.test.txt
+Lambda (interpolation coefficient between rnnlm and other lm): 0.900000
+other lm probabilities specified in: ../temp/ngram.txt
+rnnlm file: ../models/ptb.model.hidden100.class100.txt
+
+test log probability: -179083.914760
+test log probability given by other lm: -177277.640927
+test log probability 0.900000*rnn + 0.100000*other_lm: -173855.981725
+
+PPL net: 148.784435
+PPL other: 141.463591
+PPL combine: 128.568567
+
+real	0m3.290s
+user	0m3.253s
+sys	0m0.033s
