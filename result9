@@ -1,0 +1,25 @@
+reading 51 1-grams
+reading 841 2-grams
+reading 6840 3-grams
+reading 31431 4-grams
+reading 108162 5-grams
+reading 191751 6-grams
+reading 227332 7-grams
+reading 139397 8-grams
+reading 95336 9-grams
+test file: ../data/ptb.char.test.txt
+Lambda (interpolation coefficient between rnnlm and other lm): 0.200000
+other lm probabilities specified in: ../temp/ngram.txt
+rnnlm file: ../models/ptb.char.model.hidden200.txt
+
+test log probability: -221347.098747
+test log probability given by other lm: -195506.459322
+test log probability 0.200000*rnn + 0.800000*other_lm: -192662.462682
+
+PPL net: 3.164510
+PPL other: 2.766301
+PPL combine: 2.725657
+
+real	1m10.166s
+user	1m9.400s
+sys	0m0.057s
